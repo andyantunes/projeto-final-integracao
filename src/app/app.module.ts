@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { DashboardModule } from './dashboard';
 import { CalculadoraModule } from './calculadora';
+import { ConversorModule } from './conversor';
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,6 +14,7 @@ import { CalculadoraModule } from './calculadora';
     BrowserModule,
     DashboardModule,
     CalculadoraModule,
+    ConversorModule,
     AppRoutingModule,
   ],
   providers: [],
