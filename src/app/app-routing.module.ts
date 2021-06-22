@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { DashboardRoutes } from './dashboard';
 import { CalculadoraRoutes } from './calculadora';
+import { ConversorRoutes } from './conversor';
 
 export const routes: Routes = [
   {
@@ -12,6 +13,7 @@ export const routes: Routes = [
   },
   ...DashboardRoutes,
   ...CalculadoraRoutes,
+  ...ConversorRoutes,
 ];
 
 @NgModule({
